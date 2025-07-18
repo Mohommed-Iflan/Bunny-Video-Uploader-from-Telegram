@@ -2,7 +2,7 @@
   "build": {
     "builder": "NIXPACKS",
     "config": {
-      "startCommand": "python src/app.py"  # or "node src/app.js" for Node.js
+      "startCommand": "python src/app.py"
     }
   },
   "deploy": {
