@@ -1,0 +1,13 @@
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "config": {
+      "startCommand": "python src/app.py"  # or "node src/app.js" for Node.js
+    }
+  },
+  "deploy": {
+    "startTimeout": 600000,
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 10
+  }
+}
