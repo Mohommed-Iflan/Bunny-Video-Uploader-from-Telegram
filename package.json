@@ -1,11 +1,10 @@
 {
   "name": "bunny-video-upload-bot",
   "version": "1.0.0",
-  "main": "src/app.js",
-  "scripts": {
-    "start": "node src/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "app.js",
+"scripts": {
+  "start": "node app.js"
+}
   "dependencies": {
     "axios": "^0.27.2",
     "dotenv": "^16.0.0",
